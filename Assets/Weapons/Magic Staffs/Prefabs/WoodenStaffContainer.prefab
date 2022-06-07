@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7544824711734448080
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7544824711734448081}
+  - component: {fileID: 8214265445934784698}
+  - component: {fileID: 783564871958948967}
+  m_Layer: 0
+  m_Name: WoodenStaffContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7544824711734448081
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544824711734448080}
+  m_LocalRotation: {x: 0.64768004, y: 0.18028283, z: 0.36385673, w: 0.6446836}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3848003256191199036}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8214265445934784698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544824711734448080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77283f566c168f24e970bafe695fc500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GunPoint: {fileID: 223661316358564253}
+  _damage: 20
+  _rate: 0.3
+  _accuracy: 0
+  _ammoCount: 0
+  _spells:
+  - {fileID: 8226407564028130546, guid: fbe3ff2b0552e184b89fd4d6f03b40dd, type: 3}
+--- !u!114 &783564871958948967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7544824711734448080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 922920dbba494f44b9dabce791ced055, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &7544824710497203785
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7544824711734448081}
+    m_Modifications:
+    - target: {fileID: 6240177259779754959, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_Name
+      value: wooden staff fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3698505859487095340, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+    - {fileID: 5376096540608885847, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+--- !u!4 &3848003256191199036 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6760536958295134581, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+  m_PrefabInstance: {fileID: 7544824710497203785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &223661316358564253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7759140108443983828, guid: ac7f493232e5eec44869679489832d3d, type: 3}
+  m_PrefabInstance: {fileID: 7544824710497203785}
+  m_PrefabAsset: {fileID: 0}
